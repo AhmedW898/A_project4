@@ -1,0 +1,285 @@
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    position: relative;
+}
+
+.navbar-brand:hover{
+    color: white !important;
+}
+.dropdown, .dropend, .dropstart, .dropup {
+    position: relative;
+}
+
+.navbar-expand-sm .navbar-nav .dropdown-menu {
+    position: absolute;
+}
+
+.nav-item{
+    position: relative;
+}
+.navbar-nav .dropdown-menu {
+    position: static;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: 0;
+    margin-top: 0.125rem;
+}
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.nav-item:hover .dropdown-menu{
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #45fd0d;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+[role=button] {
+    cursor: pointer;
+}
+.btn-s{
+    margin-right: 130px;
+}
+.btn-mod{
+    position: absolute;
+    top: 19px;
+    right: 20px;
+    z-index: 5500;
+    
+}
+/* ---------------------------------------------------------------- */
+/* .w-100{
+    width: 100% !important;
+    height: 100vh;
+
+} */
+.carousel-caption{
+    background-color: rgb(31, 22, 22);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.fi{
+    position: fixed;
+}
+.navbar{
+    position: fixed;
+}
+.carousel-inner img{
+    width: 600px;
+    height: 600px;
+}
+.ii{
+    width: 100%;
+}
+
+.img1{
+   width: 100%;
+   height: 300px;
+   background-image: url(../img/p4.jpeg.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+}
+.im{
+    width: 250px;
+    height: 250px;
+}
+.img2{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/Al-Thumama-Stadium.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+ }
+.m{
+    width: 30px;
+    height: 30px;
+}
+.ee{
+    width: 30px;
+    height: 30px; 
+}
+
+
+/*  */
+.sec-me{
+    margin-top: 30px;
+}
+.sec-me-container {
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    overflow: auto;
+    border: 1px solid rgb(119, 89, 89);
+    border-radius: 4%;
+    -webkit-border-radius: 4%;
+    -moz-border-radius: 4%;
+    -ms-border-radius: 4%;
+    -o-border-radius: 4%;
+    background-color: #141111;
+    box-shadow: 5px 5px 50px 40px #8A1538 inset;
+}
+.sec-me-l{
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+    padding-top: 30px;
+    color: #fff;
+}
+.sec-me-l h1{
+    text-transform: capitalize;
+}
+.sec-me-l i{
+
+}
+.sec-me-line{
+    width: 100px;
+    height: 5px;
+    background-color: black;
+    display: block;
+    margin-top: 15px;
+}
+.sec-me-p{
+
+}
+.sec-me-btn{
+    margin-top: 50px;
+    border: none;
+    border: 1px solid rgb(49, 45, 35);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    padding: 0px 15px;
+}
+.sec-me-btn:hover{
+    opacity: 0.5;
+}
+.sec-me-s{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    
+}
+.sec-me-img{
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(44% 0, 100% 0%, 100% 100%, 20% 100%);
+}
+/*  */
+/* .card-2{
+    border: 1px solid coral;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: blueviolet;
+    box-shadow: 5px 5px 50px 40px rgb(121, 71, 168) inset;
+    float: left;
+    display: flex;
+    width: 30%;
+} */
+/* .cardh-5:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+} */
+
+
+.icon-f{
+    z-index: 9000;
+    position: fixed;
+    margin-left: 1220px;
+    margin-top: 150px;
+}
+.icon-f ul {
+    list-style: none;
+}
+.icon-f ul li{}
+.icon-f ul li i{
+    font-size: 50px; 
+    color: #e9c8c8;
+    /* background-color: #fff; */
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.card-design-p{
+    position: relative;
+}
+.card-design::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: rgb(14, 19, 19);
+    opacity: 0.7;
+    
+}
+.card-design:hover:before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+.card-design::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(12, 15, 15);
+    opacity: 0.2;
+}
+.card-design:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
